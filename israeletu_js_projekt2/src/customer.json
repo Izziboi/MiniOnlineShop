@@ -1,0 +1,4 @@
+{"total_rows":2,"offset":0,"rows":[
+{"id":"837db5cccf841456857dffb85e042aef","key":"837db5cccf841456857dffb85e042aef","value":{"rev":"1-cdaef91ad4390ffc29d7882cb947b5ee"},"doc":{"_id":"837db5cccf841456857dffb85e042aef","_rev":"1-cdaef91ad4390ffc29d7882cb947b5ee","email":"israeletu@gmail.com","firstName":"Israel","lastName":"Etu","address":"17 Collier Road","password":"izziizzi","createdAt":"2024-12-06T10:12:09.158Z"}},
+{"id":"_design/users","key":"_design/users","value":{"rev":"1-c667d24de9d4fc52161c3f98ef6a3ad2"},"doc":{"_id":"_design/users","_rev":"1-c667d24de9d4fc52161c3f98ef6a3ad2","views":{"by_email":{"map":"function (doc) { if (doc.email) emit(doc.email, doc); }"}}}}
+]}
